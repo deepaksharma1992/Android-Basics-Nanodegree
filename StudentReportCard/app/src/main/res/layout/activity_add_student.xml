@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dp_5"
+    tools:context="com.sharma.deepak.studentreportcard.AddStudentActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_5"
+                android:text="@string/enter_student_detail"
+                android:textColor="@color/heading_color"
+                android:textSize="@dimen/heading_tv_size"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout style="@style/til_style">
+
+                <EditText
+                    android:id="@+id/et_student_name"
+                    style="@style/et_input_style"
+                    android:hint="@string/enter_student_name" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout style="@style/til_style">
+
+                <EditText
+                    android:id="@+id/et_student_class"
+                    style="@style/et_input_style_marks"
+                    android:maxLength="2"
+                    android:hint="@string/enter_student_class" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout style="@style/til_style">
+
+                <EditText
+                    android:id="@+id/et_student_roll_no"
+                    style="@style/et_input_style"
+                    android:hint="@string/enter_student_roll_no" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout style="@style/til_style">
+
+                <EditText
+                    android:id="@+id/et_student_mark1"
+                    style="@style/et_input_style_marks"
+                    android:hint="@string/enter_student_mark1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout style="@style/til_style">
+
+                <EditText
+                    android:id="@+id/et_student_mark2"
+                    style="@style/et_input_style_marks"
+                    android:hint="@string/enter_student_mark2" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout style="@style/til_style">
+
+                <EditText
+                    android:id="@+id/et_student_mark3"
+                    style="@style/et_input_style_marks"
+                    android:hint="@string/enter_student_mark3" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout style="@style/til_style">
+
+                <EditText
+                    android:id="@+id/et_student_mark4"
+                    style="@style/et_input_style_marks"
+                    android:hint="@string/enter_student_mark4" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout style="@style/til_style">
+
+                <EditText
+                    android:id="@+id/et_student_mark5"
+                    style="@style/et_input_style_marks"
+                    android:hint="@string/enter_student_mark5" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/submit_button_height"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:layout_marginTop="@dimen/dp_5"
+                android:background="@color/colorAccent"
+                android:text="@string/submit"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.v4.widget.NestedScrollView>

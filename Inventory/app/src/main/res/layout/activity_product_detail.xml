@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dp_10">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.sharma.deepak.inventory.ProductDetailActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_productImage"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_height"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_5"
+                android:text="@string/product_detail"
+                android:textColor="@color/heading_color"
+                android:textSize="@dimen/heading_tv_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textSize="@dimen/list_tv_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_product_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textSize="@dimen/list_tv_size"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tv_product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textColor="@color/price_color"
+                android:textSize="@dimen/list_tv_size"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_minus"
+                    android:layout_width="@dimen/product_increase_dimen"
+                    android:layout_height="@dimen/product_increase_dimen"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:src="@drawable/minus" />
+
+                <TextView
+                    android:id="@+id/tv_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:freezesText="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/heading_tv_size"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_plus"
+                    android:layout_width="@dimen/product_increase_dimen"
+                    android:layout_height="@dimen/product_increase_dimen"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:src="@drawable/plus" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_order"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/submit_button_height"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:layout_marginTop="@dimen/dp_5"
+                android:background="@color/colorAccent"
+                android:text="@string/order"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</android.support.v4.widget.NestedScrollView>

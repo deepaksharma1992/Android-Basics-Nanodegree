@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dp_5"
+    tools:context="com.sharma.deepak.inventory.AddProductActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_height">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_select_image"
+                    android:text="@string/add_image"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/black"/>
+                <ImageView
+                    android:id="@+id/iv_productImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/image_height"
+                    android:scaleType="centerCrop" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_margin="@dimen/fab_margin"
+                    app:srcCompat="@drawable/add" />
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_5"
+                android:text="@string/enter_product_detail"
+                android:textColor="@color/heading_color"
+                android:textSize="@dimen/heading_tv_size"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout style="@style/til_style">
+
+                <EditText
+                    android:id="@+id/et_product_name"
+                    style="@style/et_input_style"
+                    android:hint="@string/enter_product_name" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout style="@style/til_style">
+
+                <EditText
+                    android:id="@+id/et_product_price"
+                    style="@style/et_input_style"
+                    android:hint="@string/enter_product_price"
+                    android:inputType="number"
+                    android:maxLength="@string/four"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout style="@style/til_style">
+
+                <EditText
+                    android:id="@+id/et_product_quantity"
+                    style="@style/et_input_style"
+                    android:hint="@string/enter_product_quantity"
+                    android:inputType="number"
+                    android:maxLength="@string/four"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout style="@style/til_style">
+
+                <EditText
+                    android:id="@+id/et_phone_number"
+                    style="@style/et_input_style"
+                    android:hint="@string/enter_phone"
+                    android:inputType="phone" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout style="@style/til_style">
+
+                <EditText
+                    android:id="@+id/et_purchase_date"
+                    style="@style/et_input_style"
+                    android:focusable="false"
+                    android:hint="@string/enter_purchase_date" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/submit_button_height"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:layout_marginTop="@dimen/dp_5"
+                android:background="@color/colorAccent"
+                android:text="@string/submit"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.v4.widget.NestedScrollView>

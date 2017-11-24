@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Android Quiz</string>
+    <string name="question_core_components">What are the core components in Android?</string>
+    <string name="activities">Activity</string>
+    <string name="fragments">Fragments</string>
+    <string name="content_provider">Content Provider</string>
+    <string name="none_of_these">None of These</string>
+    <string name="submit">Submit</string>
+    <string name="question_margin_padding">What is the difference between margin and padding in android layout?</string>
+    <string name="margin_defination">Margin is specifying the extra space left on all four sides in layout</string>
+    <string name="padding_defination">Padding is used to offset the content of a view by specific px or dp</string>
+    <string name="both_a_and_b">Both A and B are correct</string>
+    <string name="singleton_question">What is singleton class in android?</string>
+    <string name="one_object">A class that can create only one object</string>
+    <string name="ananymous">Anonymous class</string>
+    <string name="java_class">Java class</string>
+    <string name="manifest">Manifest file</string>
+    <string name="only_one">Only one</string>
+    <string name="two">Two</string>
+    <string name="no_thread">AsyncTask doesn\'t have tread</string>
+    <string name="async_question">How many threads are there in asyncTask in android?</string>
+    <string name="sync_question">What is off-line synchronization in android?</string>
+    <string name="with_internet">Synchronization with internet</string>
+    <string name="back_sync">Background synchronization</string>
+    <string name="without_internet">Synchronization without internet</string>
+    <string name="type_your_answer_here">Type your answer here.</string>
+    <string name="one">One</string>
+    <string name="one_num">1</string>
+    <string name="one_thread">One Thread</string>
+    <string name="one_thread_num">1 thread</string>
+    <string name="right_answer">Your Answer is Correct :)</string>
+    <string name="wrong_answer">:( Your answer is wrong! Pls try Again..</string>
+    <string name="final_result">Your final result is </string>
+</resources>

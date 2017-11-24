@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_list_size">18sp</dimen>
+    <dimen name="card_radius">4dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="margin_top">3dp</dimen>
+    <dimen name="dp_0">0dp</dimen>
+</resources>

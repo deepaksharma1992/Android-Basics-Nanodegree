@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    android:weightSum="2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sharma.deepak.musicstructure.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout style="@style/parent_ll_style">
+
+
+        <android.support.v7.widget.CardView
+            style="@style/child_card_style"
+            app:cardCornerRadius="@dimen/card_radius">
+
+            <RelativeLayout
+                style="@style/child_rl_style"
+                android:background="@drawable/dark_blue_music">
+
+                <ImageButton
+                    android:id="@+id/ib_home"
+                    style="@style/child_ib_style"
+                    android:background="@color/green_transparent" />
+
+                <ImageView
+                    android:id="@+id/iv_home"
+                    style="@style/child_iv_style"
+                    android:src="@drawable/home_icon" />
+
+                <TextView
+                    style="@style/child_tv_style"
+                    android:layout_below="@+id/iv_home"
+                    android:text="@string/home" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/child_card_style"
+            app:cardCornerRadius="@dimen/card_radius">
+
+
+            <RelativeLayout
+                style="@style/child_rl_style"
+                android:background="@drawable/black_image">
+
+                <ImageButton
+                    android:id="@+id/ib_album"
+                    style="@style/child_ib_style"
+                    android:background="@color/grey_transparent" />
+
+                <ImageView
+                    android:id="@+id/iv_album"
+                    style="@style/child_iv_style"
+                    android:src="@drawable/album_image" />
+
+                <TextView
+                    style="@style/child_tv_style"
+                    android:layout_below="@+id/iv_album"
+                    android:text="@string/album" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout style="@style/parent_ll_style">
+
+        <android.support.v7.widget.CardView
+            style="@style/child_card_style"
+            app:cardCornerRadius="@dimen/card_radius">
+
+            <RelativeLayout
+                style="@style/child_rl_style"
+                android:background="@drawable/band_music">
+
+                <ImageButton
+                    android:id="@+id/ib_artist"
+                    style="@style/child_ib_style"
+                    android:background="@color/yellow_transparent" />
+
+                <ImageView
+                    android:id="@+id/iv_artist"
+                    style="@style/child_iv_style"
+                    android:src="@drawable/artist_image" />
+
+                <TextView
+                    style="@style/child_tv_style"
+                    android:layout_below="@+id/iv_artist"
+                    android:text="@string/artist" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/child_card_style"
+            app:cardCornerRadius="@dimen/card_radius">
+
+
+            <RelativeLayout
+                style="@style/child_rl_style"
+                android:background="@drawable/path_music">
+
+                <ImageButton
+                    android:id="@+id/ib_playlist"
+                    style="@style/child_ib_style"
+                    android:background="@color/pink_transparent" />
+
+                <ImageView
+                    android:id="@+id/iv_playlist"
+                    style="@style/child_iv_style"
+                    android:src="@drawable/playlist_image" />
+
+                <TextView
+                    style="@style/child_tv_style"
+                    android:layout_below="@+id/iv_playlist"
+                    android:text="@string/playlist" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+</LinearLayout>

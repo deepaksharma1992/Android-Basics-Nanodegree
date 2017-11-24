@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cricket Scorer</string>
+    <string name="reset">RESET</string>
+    <string name="six">6</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="zero">00</string>
+    <string name="this_over">This Over:</string>
+    <string name="dash">-</string>
+    <string name="india_batting">India Batting First</string>
+    <string name="pak_batting">Pakistan Batting Second</string>
+    <string name="pak_won">Pakistan Won The Match</string>
+    <string name="ind_won">India Won The Match</string>
+    <string name="match_draw">Match Drawn!</string>
+    <string name="pak">PAK</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="music_bar_height">70dp</dimen>
+    <dimen name="play_button_param">50dp</dimen>
+    <dimen name="for_back_dimen">25dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="button_text">22sp</dimen>
+    <dimen name="icon_size">60dp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="card_radius">4dp</dimen>
+</resources>

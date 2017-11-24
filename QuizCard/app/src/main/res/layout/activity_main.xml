@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/app_padding"
+    tools:context="com.sharma.deepak.quizcard.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/ll_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/question_text_style"
+                    android:text="@string/question_core_components" />
+
+                <CheckBox
+                    android:id="@+id/cb_q_one_op_one"
+                    style="@style/check_box_style"
+                    android:text="@string/activities" />
+
+                <CheckBox
+                    android:id="@+id/cb_q_one_op_two"
+                    style="@style/check_box_style"
+                    android:text="@string/fragments" />
+
+                <CheckBox
+                    android:id="@+id/cb_q_one_op_three"
+                    style="@style/check_box_style"
+                    android:text="@string/content_provider" />
+
+                <CheckBox
+                    android:id="@+id/cb_q_one_op_four"
+                    style="@style/check_box_style"
+                    android:text="@string/none_of_these" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/ll_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/question_text_style"
+                    android:text="@string/question_margin_padding" />
+
+                <RadioGroup
+                    android:id="@+id/rg_padding_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/rb_q_two_op_one"
+                        style="@style/check_box_style"
+                        android:text="@string/margin_defination" />
+
+                    <RadioButton
+                        android:id="@+id/rb_q_two_op_two"
+                        style="@style/check_box_style"
+                        android:text="@string/padding_defination" />
+
+                    <RadioButton
+                        android:id="@+id/rb_q_two_op_three"
+                        style="@style/check_box_style"
+                        android:text="@string/both_a_and_b" />
+
+                    <RadioButton
+                        android:id="@+id/rb_q_two_op_four"
+                        style="@style/check_box_style"
+                        android:text="@string/none_of_these" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/ll_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/question_text_style"
+                    android:text="@string/singleton_question" />
+
+                <RadioGroup
+                    android:id="@+id/rg_singleton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/rb_q_three_op_one"
+                        style="@style/check_box_style"
+                        android:text="@string/one_object" />
+
+                    <RadioButton
+                        android:id="@+id/rb_q_three_op_two"
+                        style="@style/check_box_style"
+                        android:text="@string/ananymous" />
+
+                    <RadioButton
+                        android:id="@+id/rb_q_three_op_three"
+                        style="@style/check_box_style"
+                        android:text="@string/java_class" />
+
+                    <RadioButton
+                        android:id="@+id/rb_q_three_op_four"
+                        style="@style/check_box_style"
+                        android:text="@string/manifest" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/ll_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/question_text_style"
+                    android:text="@string/async_question" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et_async_task"
+                        style="@style/check_box_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/type_your_answer_here" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/ll_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/question_text_style"
+                    android:text="@string/sync_question" />
+
+                <RadioGroup
+                    android:id="@+id/rg_syncronisation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/rb_q_five_op_one"
+                        style="@style/check_box_style"
+                        android:text="@string/with_internet" />
+
+                    <RadioButton
+                        android:id="@+id/rb_q_five_op_two"
+                        style="@style/check_box_style"
+                        android:text="@string/back_sync" />
+
+                    <RadioButton
+                        android:id="@+id/rb_q_five_op_three"
+                        style="@style/check_box_style"
+                        android:text="@string/without_internet" />
+
+                    <RadioButton
+                        android:id="@+id/rb_q_five_op_four"
+                        style="@style/check_box_style"
+                        android:text="@string/none_of_these" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="@dimen/ll_margin"
+            android:background="@color/colorAccent"/>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

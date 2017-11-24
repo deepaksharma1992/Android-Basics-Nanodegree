@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_10"
+    tools:context="com.sharma.deepak.studentreportcard.StudentDetailActivity">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/heading_tv_size"
+                android:textStyle="bold"
+                tools:text="deepak" />
+
+            <TextView
+                android:id="@+id/tv_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_5"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/heading_tv_size"
+                tools:text="4th standard" />
+
+            <TextView
+                android:id="@+id/tv_roll_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_5"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/heading_tv_size"
+                android:textStyle="bold"
+                tools:text="AES21" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_30"
+                android:text="@string/scored"
+                android:textSize="@dimen/list_tv_size"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/circle" />
+
+                <TextView
+                    android:id="@+id/tv_percent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/heading_tv_size"
+                    android:textStyle="bold"
+                    tools:text="69.2%" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textSize="@dimen/heading_tv_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_sub1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_30"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/heading_tv_size"
+                tools:text="Subject 1       -69" />
+
+            <TextView
+                android:id="@+id/tv_sub2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/heading_tv_size"
+                tools:text="Subject 1       -69" />
+
+            <TextView
+                android:id="@+id/tv_sub3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/heading_tv_size"
+                tools:text="Subject 1       -69" />
+
+            <TextView
+                android:id="@+id/tv_sub4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/heading_tv_size"
+                tools:text="Subject 1       -69" />
+
+            <TextView
+                android:id="@+id/tv_sub5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/heading_tv_size"
+                tools:text="Subject 1       -69" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</android.support.v4.widget.NestedScrollView>

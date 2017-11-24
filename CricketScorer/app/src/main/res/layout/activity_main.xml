@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sharma.deepak.cricketscorer.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_india"
+                android:layout_width="@dimen/eighty_dp"
+                android:layout_height="@dimen/eighty_dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/thirty_dp"
+                android:layout_marginTop="@dimen/thirty_dp"
+                android:src="@drawable/india" />
+
+            <TextView
+                android:id="@+id/tv_ind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_india"
+                android:layout_marginLeft="@dimen/fifty_five_dp"
+                android:layout_marginTop="@dimen/five_dp"
+                android:text="IND"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/eighteen_sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_ind_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_ind"
+                android:layout_marginLeft="@dimen/fifty_dp"
+                android:layout_marginTop="@dimen/five_dp"
+                android:text="@string/zero"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/thirty_five_sp" />
+
+            <ImageView
+                android:id="@+id/iv_pakistan"
+                android:layout_width="@dimen/eighty_dp"
+                android:layout_height="@dimen/eighty_dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="@dimen/thirty_dp"
+                android:layout_marginTop="@dimen/thirty_dp"
+                android:src="@drawable/pakistan" />
+
+            <TextView
+                android:id="@+id/tv_pak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/iv_pakistan"
+                android:layout_marginRight="@dimen/fifty_five_dp"
+                android:layout_marginTop="@dimen/five_dp"
+                android:text="@string/pak"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/eighteen_sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_pak_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/tv_ind"
+                android:layout_marginRight="@dimen/fifty_dp"
+                android:layout_marginTop="@dimen/five_dp"
+                android:text="@string/zero"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/thirty_five_sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/this_over"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/eighteen_sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_first_ball"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/five_dp"
+                android:text="@string/dash"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/eighteen_sp" />
+
+            <TextView
+                android:id="@+id/tv_second_ball"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/five_dp"
+                android:text="@string/dash"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/eighteen_sp" />
+
+            <TextView
+                android:id="@+id/tv_third_ball"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/five_dp"
+                android:text="@string/dash"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/eighteen_sp" />
+
+            <TextView
+                android:id="@+id/tv_fourth_ball"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/five_dp"
+                android:text="@string/dash"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/eighteen_sp" />
+
+            <TextView
+                android:id="@+id/tv_five_ball"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/five_dp"
+                android:text="@string/dash"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/eighteen_sp" />
+
+            <TextView
+                android:id="@+id/tv_six_ball"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/five_dp"
+                android:text="@string/dash"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/eighteen_sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/twenty_dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_one"
+                android:layout_width="@dimen/run_size"
+                android:layout_height="@dimen/run_size"
+                android:background="@drawable/circle_one"
+                android:text="@string/one"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_two"
+                android:layout_width="@dimen/run_size"
+                android:layout_height="@dimen/run_size"
+                android:layout_marginLeft="@dimen/five_dp"
+                android:background="@drawable/circle_two"
+                android:text="@string/two"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_three"
+                android:layout_width="@dimen/run_size"
+                android:layout_height="@dimen/run_size"
+                android:layout_marginLeft="@dimen/five_dp"
+                android:background="@drawable/circle_three"
+                android:text="@string/three"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_four"
+                android:layout_width="@dimen/run_size"
+                android:layout_height="@dimen/run_size"
+                android:layout_marginLeft="@dimen/five_dp"
+                android:background="@drawable/circle_four"
+                android:text="@string/four"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_six"
+                android:layout_width="@dimen/run_size"
+                android:layout_height="@dimen/run_size"
+                android:layout_marginLeft="@dimen/five_dp"
+                android:background="@drawable/circle__six"
+                android:text="@string/six"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero_dp"
+            android:id="@+id/tv_match_result"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="@dimen/eighteen_sp"
+            android:text="@string/india_batting"
+            android:textStyle="bold|italic"
+            android:textColor="@color/result_text"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"
+            android:layout_gravity="center"
+            android:id="@+id/btn_reset"/>
+    </LinearLayout>
+</LinearLayout>

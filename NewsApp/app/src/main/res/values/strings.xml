@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="no_items_in_list">Currently there are no books to display! Search your book to see all your results.</string>
+    <string name="no_conncetion">No Internet connection found. Make sure you are connected to internet while you search</string>
+</resources>
