@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout style="@style/LinearLayoutStyle">
+
+        <ImageView
+            android:id="@+id/iv_location_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height"
+            android:scaleType="fitXY" />
+
+        <android.support.v7.widget.CardView style="@style/CardStyle">
+
+            <LinearLayout
+                style="@style/LinearLayoutStyle"
+                android:layout_margin="@dimen/layout_margin">
+
+                <TextView
+                    style="@style/HeadingTextStyle"
+                    android:text="@string/description" />
+
+                <TextView
+                    android:id="@+id/tv_description"
+                    style="@style/TextStyle" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView style="@style/CardStyle">
+
+            <LinearLayout
+                style="@style/LinearLayoutStyle"
+                android:layout_margin="@dimen/layout_margin">
+
+                <TextView
+                    style="@style/HeadingTextStyle"
+                    android:text="@string/location" />
+
+                <TextView
+                    android:id="@+id/tv_location"
+                    style="@style/TextStyle" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView style="@style/CardStyle">
+
+            <LinearLayout
+                style="@style/LinearLayoutStyle"
+                android:layout_margin="@dimen/layout_margin">
+
+                <TextView
+                    style="@style/HeadingTextStyle"
+                    android:text="@string/cost" />
+
+                <TextView
+                    android:id="@+id/tv_cost"
+                    style="@style/TextStyle" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView style="@style/CardStyle">
+
+            <LinearLayout
+                style="@style/LinearLayoutStyle"
+                android:layout_margin="@dimen/layout_margin">
+
+                <TextView
+                    style="@style/HeadingTextStyle"
+                    android:text="@string/opening_hour" />
+
+                <TextView
+                    android:id="@+id/tv_opening_hour"
+                    style="@style/TextStyle" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

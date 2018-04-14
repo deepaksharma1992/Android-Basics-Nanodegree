@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">DelhiGuide</string>
+    <string name="delhi_tour_guide">Delhi Tour Guide</string>
+
+    <!--red fort-->
+    <string name="red_name">Red Fort</string>
+    <string name="red_description">Delhi\'s most famous monument, the Red Fort, stands as a powerful reminder of the Mughal emperors who ruled India. Its walls, which stretch for over two kilometers (1.2 miles), were built in 1638 to keep out invaders. However, they failed to stop the fort being captured by the Sikhs and the British. To take your imagination back to the ancient era, a one hour sound and light show of the fort\'s history is held each evening.</string>
+    <string name="red_location">Opposite Chandni Chowk, Old Delhi.</string>
+    <string name="red_cost">Foreigners, 500 rupees. Indians, 30 rupees. Free for children under 15 years.</string>
+    <string name="red_opening_hour">Sunrise until sunset. Closed Mondays.</string>
+
+
+    <!--jama masjid-->
+    <string name="jama_name">Jama Masjid</string>
+    <string name="jama_description">Jama Masjid is another marvelous treasure of the Old City, and is the largest mosque in India. Its courtyard can hold an incredible 25,000 devotees. The mosque took 13 years to build, and was completed in 1650. A strenuous climb to the top of its southern tower will reward you with a stunning view across the rooftops of Delhi. Be sure to dress appropriately when visiting the mosque or you won\'t be allowed in. This means covering your head, legs and shoulders. Attire is available there.</string>
+    <string name="jama_location">Opposite Chandni Chowk, Old Delhi. Near the Red Fort.</string>
+    <string name="jama_cost">Free, but a camera fee of 300 rupees applies. You will also need to pay 100 rupees to climb the minaret tower.</string>
+    <string name="jama_opening_hour"> Daily, except when prayers are being held from 12.15 p.m. to 1.45 p.m. It closes just before sunset.</string>
+
+
+    <!--akshardham-->
+    <string name="akshardham_name">Swaminarayan Akshardham</string>
+    <string name="akshardham_description">A relatively new attraction, this massive temple complex was built by the BAPS Swaminarayan Sanstha spiritual organization and opened in 2005. It\'s dedicated to showcasing Indian culture. As well as the astonishing architecture of the pink stone and white marble shrine, the complex includes sprawling garden, sculptures, and boat ride. Allow plenty of time to explore it thoroughly -- at least half a day. Do note that cell phones and cameras are not permitted inside.</string>
+    <string name="akshardham_location">N. H. 24 | Near Noida Mor, New Delhi.</string>
+    <string name="akshardham_cost">Free. However, tickets are required to view the exhibitions.</string>
+    <string name="akshardham_opening_hour">Tuesday to Sunday, 9.30 a.m. until 6.30 p.m. (last entry). Closed Mondays.</string>
+
+    <!--Humayun tomb-->
+    <string name="tomb_name">Humayun\'s Tomb</string>
+    <string name="tomb_description">If you think Humayun\'s Tomb looks a bit like the Taj Mahal in Agra, that\'s because it was the inspiration for the Taj Mahal\'s creation. The tomb was built in 1570, and houses the body of the second Mughal emperor, Humayun. It was the first of this type of Mughal architecture to be built in India, and the Mughal rulers followed it up with an extensive period of construction all over the country. The tomb is part of a greater complex that's set among beautiful gardens.</string>
+    <string name="tomb_location">Nizamuddin East, New Delhi. Near the Nizamuddin train station, off Mathura Road.</string>
+    <string name="tomb_cost">Foreigners, 500 rupees. Indians, 30 rupees. Free for children under 15 years.</string>
+    <string name="tomb_opening_hour">Sunrise until sunset, daily. It\'s best viewed in the golden light of the late afternoon.</string>
+    <string name="description">Description</string>
+    <string name="location">Location</string>
+    <string name="cost">Cost</string>
+    <string name="opening_hour">Opening Hour</string>
+
+</resources>
